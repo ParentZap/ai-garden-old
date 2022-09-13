@@ -1,3 +1,4 @@
+require("dotenv").config();
 const addBackgroundToPNG = require("lib/add-background-to-png");
 
 export default async function handler(req, res) {
